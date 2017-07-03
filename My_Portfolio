@@ -3,9 +3,25 @@
 <head>
 <title>Yessenia Cruz's Resume</title>
 <style>
-h1{ text-align:center;
-    font-family:verdana
+h1{
+    text-align:center;
+    font-family:impact;
+    font-size:30px;
+    color: thistle
+}
+p{ 
+    text-align:center:
+    font-family:garamond;
+    font-size: 20px;
 }
 <style>
+<body>
+<h1>Yessenia Cruz</h1>
+<p> 329 West Macdonald Ave
+    Richmond CA, 94801
+    (510)-367-4715
+    yesseniacruz0987@gmail.com
+ </p>
 
+</body>
 </head>
