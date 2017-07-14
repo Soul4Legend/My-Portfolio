@@ -1,0 +1,52 @@
+#include <Servo.h>
+Servo servoLeft;
+Servo servoRight;
+
+void setup()                                
+{
+  pinMode(7, INPUT);                        
+  pinMode(5, INPUT);                        
+  pinMode(4, OUTPUT);
+  pinMode(11, OUTPUT);
+  Serial.begin(9600);
+  servoLeft.attach(13);
+  servoRight.attach(12);                    
+  
+}              
+void loop()                               
+{                                            
+  byte wLeft = digitalRead(5);               
+  byte wRight = digitalRead(7);   
+  
+  Serial.print(wLeft);                       
+  Serial.println(wRight); 
+                    
+  if ((wLeft)==0 || (wRight) == 0){ 
+    tone(4, 262, 500);
+     digitalWrite(11,HIGH);
+     delay(500);  
+     digitalWrite(11,LOW);
+  }
+     
+  if ((wLeft)==0 && (wRight) == 0){
+    servoLeft.writeMicroseconds(1750);
+    servoRight.writeMicroseconds(1250);
+//    servoLeft.writeMicroseconds(1500);
+  }
+  if ((wLeft)==1 && (wRight) == 0){
+    servoLeft.writeMicroseconds(1750);
+    servoRight.writeMicroseconds(1250);
+    servoLeft.writeMicroseconds(1500);
+  }
+  if ((wLeft)==0 && (wRight) == 1){
+    servoLeft.writeMicroseconds(1750);
+    servoRight.writeMicroseconds(1250);
+    servoRight.writeMicroseconds(1500);
+  }
+  if ((wLeft)==1 && (wRight) == 1){
+   servoLeft.writeMicroseconds(1250);
+   servoRight.writeMicroseconds(1750);
+  }
+           delay(50);                         
+}
+
