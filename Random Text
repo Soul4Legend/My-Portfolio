@@ -1,3 +1,19 @@
 <SCRIPT LANGUAGE="JAVASCRIPT"> 
 <!--
-var r_text = new Array
+var r_text = new Array ();
+  r_text[0] = "FUN FACT: My favorite animated movie is 'A Sient Voice'.";
+  r_text[1] = "FUN FACT: I am the only girl in my family";
+  r_text[2] = "FUN FACT: I sew small projects and give them away on birthdays";
+  r_text[3] = "FUN FACT: I have horrible memory";
+  r_text[4] = "FUN FACT: Instagram: ash_cach_um...i dont even remember giving myself that username it just appeared out of know where";
+  r_text[5] = "FUN FACT: I love flowers and nature but I prefer to stay inside";
+  r_text[6] = "FUN FACT: If I had an unlimited amount of money I would buy video games and merchandise";
+  r_text[7] = "FUN FACT: I recently got into K-Pop but I only listen to EXO";
+  r_text[8] = "FUN FACT: I mainly listen to Gorillaz, Coldplay, and Imagine Dragons"
+  r_text[9] = "FUN FACT: My favorite animal is a chicken";
+  r_text[10] = "FUN FACT: My spirit animal is kermit";
+  r_text[11] = "RECOMMENDATION: Aoharu x Machinegun:
+  r_text[12] = "RECOMMENDATION:
+  r_text[13] = "FUN FACT:
+  r_text[14] = "FUN FACT:
+  r_text[15] = "FUN FACT:
