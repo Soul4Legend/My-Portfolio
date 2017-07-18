@@ -13,7 +13,9 @@ var r_text = new Array ();
   r_text[9] = "FUN FACT: My favorite animal is a chicken";
   r_text[10] = "FUN FACT: My spirit animal is kermit";
   r_text[11] = "RECOMMENDATION: Aoharu x Machinegun:
-  r_text[12] = "RECOMMENDATION:
-  r_text[13] = "FUN FACT:
-  r_text[14] = "FUN FACT:
-  r_text[15] = "FUN FACT:
+  r_text[12] = "RECOMMENDATION: 'Heaven' by EXO
+  r_text[13] = "FUN FACT: I am addicted to the game Mystic Messenger
+  r_text[14] = "FUN FACT: Favorite Snapchat filter is the dancing Hot Dog
+  r_text[15] = "FUN FACT: My favorite character is Hinata from Haikyuu
+  var i = Math.floor(r_text.legth * Math.random())
+  
