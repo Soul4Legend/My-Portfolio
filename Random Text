@@ -18,4 +18,10 @@ var r_text = new Array ();
   r_text[14] = "FUN FACT: Favorite Snapchat filter is the dancing Hot Dog
   r_text[15] = "FUN FACT: My favorite character is Hinata from Haikyuu
   var i = Math.floor(r_text.legth * Math.random())
-  
+  document.write("<br /><br /><br /><br /><br /><br /><br /
+    ><center></FONT SIZE=65><FONT COLOR='#FFFFFFF'>" + 
+    r_text[i] + "</FONT></center><br />");
+  var bgcolorlist=new Array("#00008B", "#9400D3", "#696969", "#228B22", "#FF00FF", "#CD5C5C",
+    "#4B0082", "#F08080" "#ADD8E6", "#20B2AA", "#800000", "#DA70D6", "#00FF7F", "#EE82EE", "#9ACD32")
+  documet.body.style.background=bgcolorlist[Math.flor(Math.random()
+  *bgcolorlist.length)];
