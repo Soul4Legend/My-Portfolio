@@ -10,17 +10,17 @@
           font-family: cursive;
          
         }
-        body {
-          background-color: green;
-        }
+ 
       </style>
 
 
       <title>Kermit's Blog</title>
     </head>
-    <body>
+    <body background = "http://orig13.deviantart.net/5d9d/f/2012/179/4/6/kermit_the_frog_minimalist_wallpaper_by_dodgydavec-d5571v8.png?vm=r">
     	<center>
       		<font color="Azure"><h1>Kermit the Frog</h1></font>
          </center>
+         <p>We want to tell the world that Kermit now has his own blog. Its not fully official but once its out its gonna stay out</p>
     </body>
-  </html>
+</html>
+
