@@ -1,0 +1,20 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        p{
+          font-size: 12px;
+          font-family: cursive;
+        }
+        body {
+          background-color: green;
+        }
+      </style>
+
+
+      <title>Kermit's Blog</title>
+    </head>
+    <body>
+      <h1>Dat Boii and Pepe who??</h1>
+    </body>
+  </html>
