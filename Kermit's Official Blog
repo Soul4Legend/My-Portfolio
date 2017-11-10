@@ -5,6 +5,8 @@
 
     <head>
 
+      <title>Kermit's Blog</title>
+      
       <style>
 
           h1{
@@ -44,9 +46,6 @@
         }
 
       </style>
-
-
-      <title>Kermit's Blog</title>
 
      
 
