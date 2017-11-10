@@ -22,47 +22,25 @@
           font-family: cursive;
 
           }
-
           
-
         .column{
-
             float : left;
-
             width : 50%;
-
         }
 
-        /*clear floats after the columns */
-
+      /*clear floats after the columns */
         .row:after {
-
             content: "";
-
             display: table;
+            clear: both;        }
 
-            clear: both;
-
-        }
-
-      </style>
-
-     
-
-      
-
+      </style>  
     </head>
-
     <body background = "http://orig13.deviantart.net/5d9d/f/2012/179/4/6/kermit_the_frog_minimalist_wallpaper_by_dodgydavec-d5571v8.png?vm=r">
-
-        <center>
-
+    <center>
               <font color="Azure"><h1>Kermit the Frog</h1></font>
-
-         <img src= "https://i.pinimg.com/736x/44/2a/8c/442a8cdde3891bdabb4763d9d208c494--les-muppets-kermit-the-frog.jpg" alt="" heigth= "150" width= "150">
-
+         <img src= "" alt="" heigth= "150" width= "150">
          <p>"Kermit the frog here"</p>
-
          <p>Just me being me if your not here to look at my memes then theres no reason for you to look at this page. Please close this tab 
 
     </body>
