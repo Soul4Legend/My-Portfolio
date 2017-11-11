@@ -1,0 +1,90 @@
+<!DOCTYPE htm
+<html>
+<head>
+<style>
+ h1{
+    text-align: center;
+    font-family:verdana;
+    font-size: 30px;
+    }
+  p{
+    text-align: center;
+    font-family:verdana;
+    font-size: 15px;
+    }
+			 
+body {background-image: url("https://d19fbfhz0hcvd2.cloudfront.net/UC/wp-content/uploads/2010/08/14-wrinkled-paper-6.jpg");
+	background-size:cover;}
+ .column{
+            float : left;
+            width : 50%;
+        }
+      /*clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;       
+	}
+</style>
+<title>Random Stuff</title>
+</head>
+<h2>Random Stuff</h2>
+	<div class="rows">
+		<div class="column">
+			<h3>Animes<h3>
+				<h4>Watched</h4>
+				<p>Made in Abyss</p>
+				<p>Aoharu x Machinegun</p>
+				<p>Haikyuu!!(season 1-3)</p>
+				<p>Boku no Hero Academia(season 1-2)</p>
+				<p>Haganai</p>
+				<p>Say I love you</p>
+				<p>Fruit Basket</p>
+				<p>Yuri!!! On Ice</p>
+				<p>Your lie in April</p>
+				<p>No.6</p>
+				<p>Free Iwatobi Swin Club(season 1-2)</p>
+				<p>Melancholy of Haruhi Suzumiya</p>
+				<p>Chuunibyou demo Koi ga Shitai!</p>
+				<p>Bobobo-bo Bo-bobo</p>
+				<p>Naruto</p>
+				<p>Devil is a part timer</p>
+				<p>Blood Lad</p>
+				<p>Love Stage!!</p>
+				<p>Sekai-ichi Hatsukoi (Season 1-2)</p>
+				<p>Junjou Romantica(Season 1-3)</p>
+				<p>Seraph of the End</p>
+				<p>DRAMAtical Murder</p>
+				<p>Ouran High School Host Club</p>
+				<p>Shimoneta</p>
+				<p>Shokugeki no Souma(season 1-2)</p>
+				<p>Mekakucity Actors</p>
+				
+</center>
+	</div>
+	<div class="column">	
+<center>
+			<h4>Currently Watching</h4>
+				<p>Shokugeki no Souma: San no Sara</p>
+				<p>Black Clover</p>
+				<p>Kakegurui</p>
+				<p>Kotoura-san</p>
+				<p>Sex Pistols</p>
+				<p>Assassination Classroom</p>
+			<h4>Movies</h4>
+				<p>Doukyuusei</p>
+				<p>Perfect Blue</p>
+				<p>Your Name (Kimi no na ma)</p>
+				<p>A silent voice (koe no katachi)</p>
+	<h3>Manga</h3>
+		<h4> Currently Reading</h4>
+			<p>Boku no Hero Academia</p>
+		<h4>Finished Reading</h4>
+			<p>Fairy Tail</p>
+			<p>A silent Voice</p>
+			<p>Fruit Basket</p>
+			<p>Ouran High School Host Club</p>
+</center>
+	</div>
+</body>
+</html>
