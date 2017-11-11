@@ -1,6 +1,8 @@
 <!DOCTYPE>
 <html>
 <head>
+<title>Random Stuff</title>
+</head>
 <style>
  h1{
     text-align: center;
@@ -26,8 +28,7 @@ body {background-image: url("https://d19fbfhz0hcvd2.cloudfront.net/UC/wp-content
             clear: both;       
 	}
 </style>
-<title>Random Stuff</title>
-</head>
+<body>
 <h2>Random Stuff</h2>
 	<div class="rows">
 		<div class="column">
